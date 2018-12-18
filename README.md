@@ -1,26 +1,29 @@
 # Description
-In order to make ScrollMagic work with GSAP (TweenLite / TweenMax, TimelineLite / TimelineMax),
-it is nesessary to include animation.gsap.js plugin ([official docs](http://scrollmagic.io/docs/animation.GSAP.html)).
+In order to make ScrollMagic work with GSAP (TweenLite / TweenMax, TimelineLite / TimelineMax), it is nesessary to include animation.gsap.js plugin ([scrollmagic docs](http://scrollmagic.io/docs/animation.GSAP.html)).
+
 However sometimes it gets a bit tricky with webpack.
 
 In order to save you time, to configure webpack I've created this extension.
 
-# Setting Up:
-* ```npm i laravel-mix-scrollmagic-gsap```
-* In your webpack.mix.js file
+# Installation and Usage
+* Install extension with npm:
+```
+npm i laravel-mix-scrollmagic-gsap
+```
+* In your webpack.mix.js file:
 ```
 require('laravel-mix-scrollmagic-gsap');
 
 mix.scrollmagicGSAP();
 ```
-* In your javascript file
+* In your javascript file:
 ```
 import ScrollMagic from 'scrollmagic/scrollmagic/minified/ScrollMagic.min';
 import 'scrollmagic/scrollmagic/minified/plugins/animation.gsap.min';
 // For development only
 import 'scrollmagic/scrollmagic/minified/plugins/debug.addIndicators.min';
 ```
-And you can freely use ScrollMagic with GSAP like
+And that's it. You can freely use ScrollMagic with GSAP like.
 ```
 const controller = new ScrollMagic.Controller();
 
