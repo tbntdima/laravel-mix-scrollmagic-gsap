@@ -6,4 +6,6 @@ However sometimes it gets a bit tricky with webpack.
 In order to save you time, to configure webpack I've created this extension.
 
 # Setting Up:
-* ```npm install laravel-mix-scrollmagic-gsap```
+* ```
+npm install laravel-mix-scrollmagic-gsap
+```
