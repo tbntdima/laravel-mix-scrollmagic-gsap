@@ -1,0 +1,30 @@
+{
+  "name": "laravel-mix-scrollmagic-gsap",
+  "version": "0.1.0",
+  "description": "A quick Laravel Mix extension for ScrollMagic + GSAP support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitriyaa/laravel-mix-scrollmagic-gsap.git"
+  },
+  "keywords": [
+    "laravel",
+    "laravel",
+    "mix",
+    "scrollmagic",
+    "scrollmagic",
+    "gsap",
+    "scrollmagic",
+    "gsap",
+    "plugin"
+  ],
+  "author": "Dmitriy An",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmitriyaa/laravel-mix-scrollmagic-gsap/issues"
+  },
+  "homepage": "https://github.com/dmitriyaa/laravel-mix-scrollmagic-gsap#readme"
+}
