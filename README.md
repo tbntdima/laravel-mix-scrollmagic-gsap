@@ -25,7 +25,7 @@ import 'scrollmagic/scrollmagic/minified/plugins/debug.addIndicators.min';
 ```
 And that's it. You can freely use ScrollMagic with GSAP:
 ```
-/* example */
+// Example
 const controller = new ScrollMagic.Controller();
 
 const scene = new ScrollMagic.Scene({
